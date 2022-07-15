@@ -15,7 +15,9 @@ import tensorflow as tf
 
 # import Network
 # from network_mobile_deconv import Network
-from network_MSRA152 import Network # heavier and stronger
+# heavier and stronger
+# from network_MSRA152 import Network
+from network_CPN101 import Network
 
 # detector utils
 from detector.detector_yolov3 import *
