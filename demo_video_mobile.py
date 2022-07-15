@@ -115,8 +115,7 @@ def light_track(pose_estimator,
             # perform detection at keyframes
             st_time_detection = time.time()
             human_candidates = inference_yolov3(img_path)
-            print(human_candidates)
-            print(human_candidates.shape)
+            print("human_candidates: "+str(human_candidates))
             end_time_detection = time.time()
             total_time_DET += (end_time_detection - st_time_detection)
 
