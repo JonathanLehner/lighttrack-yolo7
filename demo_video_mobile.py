@@ -14,10 +14,10 @@ import numpy as np
 import tensorflow as tf
 
 # import Network
-# from network_mobile_deconv import Network
-# heavier and stronger
+from network_mobile_deconv import Network
+# heavier and stronger, but seems not working
 # from network_MSRA152 import Network
-from network_CPN101 import Network
+# from network_CPN101 import Network
 
 # detector utils
 from detector.detector_yolov3 import *
